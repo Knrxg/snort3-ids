@@ -16,3 +16,9 @@ Update the system repositories and install the Snort package:
 ```bash
 sudo apt update && sudo apt upgrade
 sudo apt-get install snort -y
+
+```
+## 2. Verify the installation and check the service status:
+```bash
+snort --version
+systemctl status snort
